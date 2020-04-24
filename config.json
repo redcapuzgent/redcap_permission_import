@@ -1,0 +1,28 @@
+{
+  "name": "Permission import",
+  "namespace": "uzgent\\PermissionImport",
+  "description": "This allows users to import user rights for a specific project.",
+  "authors": [
+    {
+      "name": "Lieven Vaneeckhaute",
+      "email": "lieven.vaneeckhaute@uzgent.be",
+      "institution": "University Hospital Ghent"
+    }
+  ],
+  "documentation" : "howto.html",
+  "permissions": [
+  ],
+  "no-auth-pages": [
+    "importtemplate.csv"
+  ],
+  "links": {
+    "project": [
+      {
+        "name": "Import permissions",
+        "icon": "fas fa-file-upload",
+        "url": "import.php",
+        "show-header-and-footer": true
+      }
+    ]
+  }
+}
